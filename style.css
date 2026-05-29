@@ -31,5 +31,24 @@ section {
 
 .card:hover {
   transform: scale(1.05);
+  .hero {
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #111, #222);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ffcc00;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #ffaa00;
+}
   background: #2a2a2a;
 }
